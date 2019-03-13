@@ -23,5 +23,9 @@
         <input name="idboton"type="hidden" id="idboton"  value="7800" />  
         <input type="image" id="imagen" src="https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/boton_carro_de_compras_epayco4.png" />
     </form>
+	<form action='http://localhost:3800/api/services/upload' method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Subir">
+	</form>
 </body>
 </html>
